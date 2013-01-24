@@ -1,0 +1,11 @@
+--- fay-jquery-9999/src/Language/Fay/JQuery.hs	2013-01-25 01:21:52.362753018 +0900
++++ fay-jquery-9999/src/Language/Fay/JQuery.hs.edited	2013-01-25 01:27:16.492745057 +0900
+@@ -10,7 +10,7 @@ data types all subject to drastic change
+ --}
+ 
+ import           Language.Fay.FFI
+-import           Language.Fay.Prelude
++import           Prelude
+ 
+ data JQuery
+ instance Foreign JQuery
